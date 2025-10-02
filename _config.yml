@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title:  THIS IS MY TITLE OMFG # the website title (if blank, full name will be used instead)
+title:
 first_name: Samuel
 middle_name:
 last_name: Hernandez
@@ -192,6 +192,8 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _pages/publications.md
+  - _pages/teaching.md
 keep_files:
   - CNAME
   - .nojekyll
