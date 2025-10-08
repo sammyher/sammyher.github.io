@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Sammy's Blog # blog_name will be displayed in your blog page
-blog_description: My thoughts out loud 
+blog_name: stdin / stdout # blog_name will be displayed in your blog page
+blog_description: Notes on whatever comes to mind
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
