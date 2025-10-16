@@ -8,7 +8,6 @@ categories: Personal # Optional: Add categories for your post
 
 I tend to search for the meaning behind songs, especially for those that I obsess over. This normally comes in the form of reading articles about the singer's process and intended meaning, genius lyrics, and forums. I couldn't find much for this particular song (which fucking sucked because I love this song with all my soul), so I thought it would be fun to dissect it myself the same way genius does. This kind of reminds me of what we did in AP English Literature. "You have to make mountains out of molehills" - Mr. Garcia
 
-
 <p>
   <details style="display: inline-block;">
     <summary>¿Qué horas son, mi corazón?</summary>
@@ -24,7 +23,25 @@ I tend to search for the meaning behind songs, especially for those that I obses
       Once de la noche en Managua, Nicaragua<br>
     </summary>
     <span style="color: #808080;">Manu Chao's political awareness was ingrained in him from a young age. His parents emigrated to Paris to escape Francisco Franco's dictatorship after his grandfather was sentenced to death. The choice of La Habana, Cuba directly points to the Cuban Revolution and Che Guevara, whom Manu has honored in his music and performances. By referencing San Salvador and Managua, he evokes the histories of the Salvadoran Civil War and Nicaragua's Sandinista Revolution. All of these conflicts are defined by popular resistance against foreign-backed regimes, most notably the United States. While Manu may seem unsure of his own identity, constantly asking his heart for the time, the specific locations he names reveal that his political spirit is firmly aligned with a timezone of independence and revolutionary ideals.</span>
-  </details>
+  </details><br><br>
+  <details style="display: inline-block;">
+    <summary>
+      Me gustan los aviones, me gustas tú
+      Me gusta viajar, me gustas tú
+      Me gusta la mañana, me gustas tú
+      Me gusta el viento, me gustas tú
+      Me gusta soñar, me gustas tú
+      Me gusta la mar, me gustas tú
+    </summary>
+    <span style="color: #808080;"> I classified everything Chao says he likes and broke it down into categories.<br>
+  Travel:<br>
+    aviones<br>
+    Viajar<br>
+    La moto<br>
+    Correr<br>
+    volver<br>
+  </span>
+  </details><br><br>
 </p>
 
 
