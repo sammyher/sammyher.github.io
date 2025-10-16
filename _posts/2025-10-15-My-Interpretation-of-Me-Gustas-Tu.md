@@ -22,24 +22,27 @@ I tend to search for the meaning behind songs, especially for those that I obses
       Once de la noche en San Salvador, El Salvador<br>
       Once de la noche en Managua, Nicaragua<br>
     </summary>
-    <span style="color: #808080;">Manu Chao's political awareness was ingrained in him from a young age. His parents emigrated to Paris to escape Francisco Franco's dictatorship after his grandfather was sentenced to death. The choice of La Habana, Cuba directly points to the Cuban Revolution and Che Guevara, whom Manu has honored in his music and performances. By referencing San Salvador and Managua, he evokes the histories of the Salvadoran Civil War and Nicaragua's Sandinista Revolution. All of these conflicts are defined by popular resistance against foreign-backed regimes, most notably the United States. While Manu may seem unsure of his own identity, constantly asking his heart for the time, the specific locations he names reveal that his political spirit is firmly aligned with a timezone of independence and revolutionary ideals.</span>
+    <span style="color: #808080;">Manu Chao's political awareness was ingrained in him from a young age. His parents emigrated to Paris to escape Francisco Franco's dictatorship after his grandfather was sentenced to death. The choice of La Habana, Cuba directly points to the Cuban Revolution and Che Guevara, whom Manu has honored in his music and performances. By referencing San Salvador and Managua, he evokes the histories of the Salvadoran Civil War and Nicaragua's Sandinista Revolution. All of these conflicts are defined by popular resistance against foreign backed regimes, most notably the United States. While Manu may seem unsure of his own identity, constantly asking his heart for the time, the specific locations he names reveal that his political spirit is firmly aligned with a timezone of independence and revolutionary ideals.</span>
   </details><br><br>
   <details style="display: inline-block;">
     <summary>
-      Me gustan los aviones, me gustas tú
-      Me gusta viajar, me gustas tú
-      Me gusta la mañana, me gustas tú
-      Me gusta el viento, me gustas tú
-      Me gusta soñar, me gustas tú
-      Me gusta la mar, me gustas tú
+      Me gustan los aviones, me gustas tú<br>
+      Me gusta viajar, me gustas tú<br>
+      Me gusta la mañana, me gustas tú<br>
+      Me gusta el viento, me gustas tú<br>
+      Me gusta soñar, me gustas tú<br>
+      Me gusta la mar, me gustas tú<br>
     </summary>
     <span style="color: #808080;"> I classified everything Chao says he likes and broke it down into categories.<br>
-  Travel:<br>
-    aviones<br>
-    Viajar<br>
-    La moto<br>
-    Correr<br>
-    volver<br>
+    Travel:<br>
+      <ul>
+        <li>aviones</li>
+        <li>Viajar</li>
+        <li>La moto</li>
+        <li>Correr</li>
+        <li>volver</li>
+      </ul><br>
+    
   </span>
   </details><br><br>
 </p>
