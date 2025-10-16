@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-me-in-100-songs",
+            },{id: "post-my-interpretation-of-me-gustas-tu",
+        
+          title: "My Interpretation of Me Gustas Tu",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/My-Interpretation-of-Me-Gustas-Tu/";
+          
+        },
+      },{id: "post-me-in-100-songs",
         
           title: "Me in 100 Songs",
         
