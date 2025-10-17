@@ -35,15 +35,24 @@ I tend to search for the meaning behind songs, especially for those that I obses
     </summary>
     <span style="color: #808080;"> I classified everything Chao says he likes and broke it down into categories.<br>
     Travel:<br>
-      <ul>
+      <ul style="color: #808080;">
         <li>aviones</li>
         <li>Viajar</li>
         <li>La moto</li>
         <li>Correr</li>
         <li>volver</li>
       </ul><br>
-    
+    Manu Chao frames his life as a constant departure. His inclusion of "correr" suggests a need to escape feelings of displacement, while "volver" reveals the complex reality of his nomadic lifestyle, a cycle of movement fueled by a persistent sense of longing
   </span>
+  </details><br><br>
+  <details style="display: inline-block;">
+    <summary>
+      ¿Qué voy a hacer? Je ne sais pas<br>
+      ¿Qué voy a hacer? Je ne sais plus<br>
+      ¿Qué voy a hacer? Je suis perdu<br>
+      ¿Qué horas son, mi corazón?<br>
+    </summary>
+    <span style="color: #808080;"></span>
   </details><br><br>
 </p>
 
