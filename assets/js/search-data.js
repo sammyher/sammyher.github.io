@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-my-interpretation-of-me-gustas-tu",
+            },{id: "post-summer-corn-pasta",
+        
+          title: "(Summer) corn pasta",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Summer-Corn-Pasta/";
+          
+        },
+      },{id: "post-my-interpretation-of-me-gustas-tu",
         
           title: "My Interpretation of Me Gustas Tu",
         
