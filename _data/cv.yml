@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Samuel Hernandez
     - name: Date of Birth
-      value: 14th March 1879
+      value: 9th January 2004
     - name: Languages
-      value: English, German
+      value: English, Spanish
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor of Science
+      institution: University of California, San Diego
+      year: 2026 
       description:
         - Description 1.
         - Description 2.
@@ -31,35 +31,31 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: CSE Tutor
+      institution: UC San Diego CSE Department
+      year: March 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Head Tutor - CSE 29
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Led an additional 2-hour lab section and provided hands-on support for student groups.
+            - Refined grading scripts and improved automation for evaluating programming assignments and labs.
+        - title: Lead Tutor - CSE 8A
+          contents:
+            - Managed grading allocation, held supplemental office hours, and maintained the course website.
+            - Collaborated with TAs to finalize discussion slides and weekly instructional materials.
+        - title: Tutor - CSE 15L
+          contents:
+            - Guided 4 groups of 8-10 students in weekly 2-hour labs for various courses.
+            - Contributed to the development of new teaching material and lab content.
+            - Graded 120+ assignments with detailed feedback and answered over 150+ student questions online.
+    - title: Research Assistant
+      institution: ESB.AI Lab
+      year: January 2024 - October 2024
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Optimized hardware for remote data collection systems, including soldering, camera testing, and power consumption management.
+        - Implemented bash scripting for automated time lapse photography and video recording, enhancing efficiency in data acquisition.
+        - Contributed in the labeling of relevant data collected that are crucial for the training of object detection models.
+        - Assisted in presenting project results and secured a $50,000 CA
 
 - title: Open Source Projects
   type: time_table
