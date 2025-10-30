@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 5
 cv_pdf: Resume.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: Did you know CV stands for Curriculum vitae? I didn't know that. It seems like it's commonly used in Europe and sometimes in academia for professors. 
 toc:
   sidebar: left
 ---
