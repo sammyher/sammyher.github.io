@@ -110,8 +110,8 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-a-knight-of-the-seven-kingdoms",
+          title: 'A Knight of the Seven Kingdoms',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
