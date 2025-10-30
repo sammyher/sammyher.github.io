@@ -6,7 +6,6 @@ categories: Cooking # Optional: Add categories for your post
 #tags:
 ---
 
-## (Summer) Corn Pasta
 
 ### Ingredients
 
@@ -37,12 +36,12 @@ categories: Cooking # Optional: Add categories for your post
 7.  Remove from heat and squeeze in the juice of 1 lime and stir together. Top with fresh chopped basil or chives and cracked black pepper to taste.
 
 
-![My (Summer) Corn Pasta](assests/img/IMG_7991.jpg)
+![My (Summer) Corn Pasta](/assets/img/IMG_7991.jpg)
 
 
 ---
 
-### 💬 NOTES
+### NOTES
 
 > I put summer in parenthesis because it's not technically summer anymore and I don't want the corn pasta police to shoot me on the spot. Yea this dish tastes great only during summer, don't attempt this during winter unless you want to implode.
 >
