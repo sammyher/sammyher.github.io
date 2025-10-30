@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
+  },{id: "nav-bookshelf",
+          title: "bookshelf",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/books/";
+          },
+        },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
@@ -25,14 +32,14 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "Don&#39;t look at my commit messages. I assure you they are conventianal (to myself).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Did you know CV stands for Curriculum vitae? I didn&#39;t know that. It seems like it&#39;s commonly used in Europe and sometimes in academia for professors.",
+          description: "Did you know CV stands for Curriculum vitae? I didn&#39;t know that. It seems like it&#39;s commonly used in Europe and sometimes in academia for professors. I am neither from Europe nor a professor. So yea. Here is my resume. :D",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
