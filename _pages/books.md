@@ -6,8 +6,6 @@ nav: true
 collection: books
 ---
 
-> What an astonishing thing a book is. It's a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you're inside the mind of another person, maybe somebody dead for thousands of years. Across the millennia, an author is speaking clearly and silently inside your head, directly to you. Writing is perhaps the greatest of human inventions, binding together people who never knew each other, citizens of distant epochs. Books break the shackles of time. A book is proof that humans are capable of working magic.
->
-> -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
+> I never learned how to read. I just pretend to read. I go to a public space, like a bus, starbucks, or the library, so that other people can see me. I put on my reading glasses, open up my book, and just stare at the words. Every now and then I'll squint my eyes or nod softly in order to sell the illusion. Sometimes I'll look out the window and stroke my chin to make it seem like I'm deep in my thoughts. I even go "Hmmmmm, why yes of course indubitably". Don't let learning to read get in the way of reading books. 
 
-## Books that I am reading, have read, or will read
+## Books that I have read
