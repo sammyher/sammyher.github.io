@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Did you know CV stands for Curriculum vitae? I didn&#39;t know that. It seems like it&#39;s commonly used in Europe and sometimes in academia for professors.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
