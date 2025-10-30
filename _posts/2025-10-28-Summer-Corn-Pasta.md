@@ -36,7 +36,7 @@ categories: Cooking # Optional: Add categories for your post
 7.  Remove from heat and squeeze in the juice of 1 lime and stir together. Top with fresh chopped basil or chives and cracked black pepper to taste.
 
 
-![My (Summer) Corn Pasta](/assets/img/IMG_7991.jpg)
+<img src="/assets/img/IMG_7991.jpg" alt="My (Summer) Corn Pasta" width="50%">
 
 
 ---
