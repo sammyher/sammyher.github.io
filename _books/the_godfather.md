@@ -16,4 +16,4 @@ released: 2015
 status: Finished
 ---
 
-Dunk the lunk, Thick as a castle wall! I think what stuck with me is you're only deemed a traitor if your side looses. 
+Dunk the lunk, thick as a castle wall! I think what stuck with me is you're only deemed a traitor if your side looses. 
