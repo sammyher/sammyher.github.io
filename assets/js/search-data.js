@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Don&#39;t look at my commit messages. I assure you they are conventianal (to myself).",
+          description: "Don&#39;t look at my commit messages. I assure you they are conventional (to myself).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
