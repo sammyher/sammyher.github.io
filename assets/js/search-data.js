@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-summer-corn-pasta",
+        },{id: "post-marry-me-chicipeas",
+        
+          title: "Marry Me Chicipeas",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Marry-Me-Chickpeas/";
+          
+        },
+      },{id: "post-summer-corn-pasta",
         
           title: "(Summer) corn pasta",
         
