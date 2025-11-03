@@ -52,6 +52,8 @@ categories: Cooking # Optional: Add categories for your post
 > also learned that there are different type of onions and how to tell them apart, that was nice. i only knew one type of onion before and that was "onion". I should've used a different type of pasta but we only had fettuccini at home and i didn't want to buy a different type of pasta just for this. I also hate fettuccini as a pasta so i just wanted to consume it and have it begone from our house.
 >
 > In all seriousness, I really enjoyed this and the process. I would make this again for my father. Amo pa.
+>
+> For my future reference, where i got the [recipe](https://makeitdairyfree.com/easy-summer-corn-pasta/). 
 
 
 
