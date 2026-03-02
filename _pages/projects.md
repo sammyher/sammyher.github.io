@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of my cool projects.
 nav: true
 nav_order: 3
-display_categories: [c_programming]
+display_categories: [C_programming]
 horizontal: false
 ---
 
