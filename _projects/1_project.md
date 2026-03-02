@@ -11,6 +11,15 @@ It seems like every C programmer builds their own memory allocator at some point
 
 ## Why do we need Malloc? 
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/memlayout.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Memory layout of C programs. 
+</div>
+
 C has a pretty rigid system for handling memory. To start of, lets focus on the different segments that make up a program's virtual address space.  
 1. Text Segment (also known as the code segment)
   a. Contains the instructions for executing the program.  
