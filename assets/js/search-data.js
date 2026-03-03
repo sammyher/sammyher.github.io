@@ -121,8 +121,8 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "books-tormenta-de-espadas-a-storm-of-swords",
-          title: 'Tormenta de espadas (A Storm of Swords)',
+      },{id: "books-choque-de-reyes-a-clash-of-kings",
+          title: 'choque de reyes (a clash of kings)',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/choque_de_reyes/";
@@ -136,6 +136,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "books-toremnta-de-espadas-a-storm-of-swords",
+          title: 'toremnta de espadas (a storm of swords)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/tormenta_de_espadas/";
             },},{id: "projects-my-memory-allocator",
           title: 'My Memory Allocator',
           description: "my own memory allocator in C",
