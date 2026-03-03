@@ -7,7 +7,7 @@ importance: 1
 category: C_programming
 ---
 
-It seems like every C programmer builds their own memory allocator at some point. It's almost like a rite of passage. I figured it was my turn. I had the opportunity of implementing one while I was tutoring for CSE29. One of the PA's we had to guide students (I think it was [PA3](https://cse29spring2025.github.io/pa3) was a malloc simulator. Since I had never taken the course before, one of my duties was to get familiar with the PA and if I had time, implement it myself. I probably should've but felt strange just filling out #TODO's. I felt like I was cheating. If I was going to build my own memory allocator, it should be 100% my own. I think I'm just stubborn. Anyways I finally built my own, it's not as elaborate but it's mine. 
+It seems like every C programmer builds their own memory allocator at some point. It's almost like a rite of passage. I figured it was my turn. I had the opportunity of implementing one while I was tutoring for CSE29. One of the PA's we had to guide students (I think it was [PA3](https://cse29spring2025.github.io/pa3)) was a malloc simulator. Since I had never taken the course before, one of my duties was to get familiar with the PA and if I had time, implement it myself. I probably should've but felt strange just filling out #TODO's. I felt like I was cheating. If I was going to build my own memory allocator, it should be 100% my own. I think I'm just stubborn. Anyways I finally built my own, it's not as elaborate but it's mine. 
 
 ## Why do we need Malloc? 
 
@@ -49,6 +49,46 @@ C has a pretty rigid system for handling memory. To start of, lets focus on the 
     
 We need malloc for variables with unknown compile-time sizes or those requiring a lifecycle that extends beyond the scope of a single function. It's for the situations where we don't know "how much" and "how long" at compile time.
     
-## mmap
+## mmap()
 
-To get memory for my heap, I decided to use mmap. mmap() is a system call that creates a memory mapping in the virtual address space of the process. 
+To get memory for my heap, I decided to use mmap(). mmap() is a system call that creates a memory mapping in the virtual address space of the process. I saw different implementations of malloc using sbrk() and mmap(). I chose mmap() because it allows for more flexible memory management and can be used to allocate larger blocks of memory (which I needed). It also provides better performance for large allocations (which is nice). 
+
+I also saw other implementations that called mmap() every malloc() call, but I wanted to minimize the number of system calls for performance reasons, so I decided to call mmap() once to get a large block of memory and then manage that block for subsequent malloc() and free() calls. 
+
+## My implementation!
+
+# Functions:
+- `my_malloc`: Asks for a block of memory and returns a pointer to it.
+
+- `my_calloc`: Allocates memory for an array of elements and strictly initializes all of its bits to zero before handing it over.
+
+- `my_free`: Takes a pointer back when you’re done and marks that specific segment of memory as available for reuse.
+
+- `my_realloc`: Lets you resize a block of memory you already allocated, keeping the original data intact up to the new size.
+
+# How I organized memory:
+- `Heap`:A single, massive 10 MB region of memory I request from the OS exactly once using mmap. 
+- `Block`: A smaller piece carved out of that giant heap that I hand out whenever malloc or calloc is called.
+
+Both of these levels need metadata to track what is currently happening in memory. I put a small header at the very beginning of the giant heap, and another header at the beginning of each individual block. After a single malloc call, the 10 MB memory map is essentially split into two pieces: a "Used" block containing the requested bytes, and a massive "Free" block containing the rest.
+
+Here are the C structures I used to manage the heap and blocks:
+
+
+```c
+typedef struct s_block{
+  size_t size;
+  t_bool is_free;
+  struct s_block *next;
+  struct s_block *prev;
+}t_block;
+
+typedef struct s_heap{
+  size_t total_size;
+  size_t free_size;
+  size_t block_count;
+}t_heap;
+```
+
+
+By giving each block next and prev pointers, I effectively created a doubly linked list directly inside the memory arena. This lets the allocator walk through the giant heap to find free spots, or to easily peek at the neighbors of a block I want to free so they can be merged back together to prevent fragmentation.
