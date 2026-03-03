@@ -7,7 +7,7 @@ importance: 1
 category: C_programming
 ---
 
-It seems like every C programmer builds their own memory allocator at some point. It's almost like a rite of passage. I figured it was my turn. I had the opportunity of implementing one while I was tutoring for CSE29. One of the PA's we had to guide students (I think it was [PA3](https://cse29spring2025.github.io/pa3)) was a malloc simulator. Since I had never taken the course before, one of my duties was to get familiar with the PA and if I had time, implement it myself. I probably should've but felt strange just filling out #TODO's. I felt like I was cheating. If I was going to build my own memory allocator, it should be 100% my own. I think I'm just stubborn. Anyways I finally built my own, it's not as elaborate but it's mine. 
+It seems like every C programmer builds their own memory allocator at some point. It's almost like a rite of passage. I figured it was my turn. I had the opportunity of implementing one while I was tutoring for CSE29. One of the PA's we had to guide students ([PA3](https://cse29spring2025.github.io/pa3) was the malloc simulator). Since I had never taken the course before, one of my duties was to get familiar with the PA and if I had time, implement it myself. I probably should've but felt strange just filling out #TODO's. I felt like I was cheating. If I was going to build my own memory allocator, it should be 100% my own. I think I'm just stubborn. Anyways I finally built my own, it's not as elaborate but it's mine. You can check it out on my [Github](https://github.com/sammyher/My-Memory-Allocator.git) :D
 
 ## Why do we need Malloc? 
 
@@ -72,7 +72,7 @@ I also saw other implementations that called mmap() every malloc() call, but I w
 
 Both of these levels need metadata to track what is currently happening in memory. I put a small header at the very beginning of the giant heap, and another header at the beginning of each individual block. After a single malloc call, the 10 MB memory map is essentially split into two pieces: a "Used" block containing the requested bytes, and a massive "Free" block containing the rest.
 
-Here are the C structures I used to manage the heap and blocks:
+Here are the C structures I used to manage the heap and blocks plus the functions I built:
 
 
 ```c
@@ -88,6 +88,11 @@ typedef struct s_heap{
   size_t free_size;
   size_t block_count;
 }t_heap;
+
+void *my_malloc(size_t size);
+void my_free(void *ptr);
+void *my_calloc(size_t num, size_t size);
+void *my_realloc(void *ptr, size_t new_size);
 ```
 
 
