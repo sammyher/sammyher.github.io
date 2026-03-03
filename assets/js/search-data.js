@@ -121,8 +121,18 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "books-a-knight-of-the-seven-kingdoms",
-          title: 'A Knight of the Seven Kingdoms',
+      },{id: "books-tormenta-de-espadas-a-storm-of-swords",
+          title: 'Tormenta de espadas (A Storm of Swords)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/choque_de_reyes/";
+            },},{id: "books-juego-de-tronos-a-game-of-thrones",
+          title: 'Juego de Tronos (A Game of Thrones)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/juego_de_tronos/";
+            },},{id: "books-knight-of-the-seven-kingdoms",
+          title: 'Knight of the Seven Kingdoms',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
