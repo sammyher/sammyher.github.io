@@ -146,6 +146,11 @@ ninja.data = [{
           description: "my own memory allocator in C",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-my-rsa",
+          title: 'My RSA',
+          description: "Textbook RSA implementation in Python",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
             },},{
         id: 'social-email',
         title: 'email',
