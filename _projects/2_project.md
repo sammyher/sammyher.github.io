@@ -58,7 +58,6 @@ $$n = p \times q = 11 \times 13 = 143$$
 We then calculate Euler's totient function, which basically counts how many numbers are coprime to $n$ that are smaller than $n$. We could list all the numbers that are less than $143$ and count how many of them are coprime to $143$, but that would be tedious. But the $\phi$ of a prime number, which again is only divisible by itself and one, is going to be every number below it. Therefore, $\phi(x) = x - 1$ if $x$ is a prime number. However, $n$ isn't prime. $n$ is the product of two prime numbers, meaning it's divisible by $p$ and $q$. Instead, what we could do is take the $\phi$ of $p$ and $q$ individually.
 
 $$\begin{aligned}
-
 \phi(n) &= \phi(p \cdot q) \\
 
 &= \phi(p) \cdot \phi(q) \\
@@ -68,9 +67,10 @@ $$\begin{aligned}
 &= 10 \cdot 12 \\
 
 &= 120
-
 \end{aligned}$$
+
 > A number is a coprime of another number if their greatest common divisor is 1. For example, 8 and 15 are coprime because their greatest common divisor is 1, while 12 and 15 are not coprime because their greatest common divisor is 3.
+
 ### 4. Choose Public Exponent ($e$)
 
 Now we want to look for $e$ that satisfies the following condition:
